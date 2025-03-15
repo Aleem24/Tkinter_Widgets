@@ -8,7 +8,7 @@ root.title("CLOCK")
 def msg():
     messagebox.showwarning("Alert","Stop it is a virus!")
 
-button = Button(root, text="Scan for Virus", command = msg)
+button = Button(root, text="Click to open", command = msg)
 
 button.place(x=55,y=70)
 
